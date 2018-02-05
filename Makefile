@@ -7,7 +7,7 @@ commit:
 	git commit -m $(msg)
 
 pull:
-	@git remote add origin https://github.com/fantasy-mark/dl.git
+	git reset --hard HEAD^
 	git pull origin master
 
 push:
